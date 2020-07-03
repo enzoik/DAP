@@ -1,0 +1,47 @@
+@use 'variables'
+
+
+.btn
+	border: 0
+	padding: 10px 15px
+	text-align: center
+	border-radius: 5px
+	cursor: pointer
+
+	// bind to prevent any other elements from using the class accept elements with class btn
+
+	&.btn-lg
+		padding: 20px 30px
+
+	&.btn-md
+		padding: 15px 20px
+
+	&.btn-sm
+		padding: 8px 12px
+
+	&.btn-xs
+		padding: 4px 8px
+
+	&.btn-block
+		display: block
+		width: 100%
+
+	&.btn-primary
+		background-color: variables.$primary-color
+		color: variables.$white-color
+
+	&.btn-secondary
+		background-color: variables.$secondary-color
+
+	&.btn-red
+		background-color: variables.$red-color
+		color: variables.$white-color
+
+	&.btn-teal
+		background-color: variables.$teal-color
+		color: variables.$white-color
+
+
+
+
+

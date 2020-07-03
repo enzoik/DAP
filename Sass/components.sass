@@ -1,0 +1,8 @@
+@use 'variables'
+@use 'mixins'
+
+.card
+	background: variables.$white-color
+	@include mixins.boxshadow(-1px,0,1px,3px,rgba(0,0,0,0.09))	
+	margin: 0 auto
+	width: 100%

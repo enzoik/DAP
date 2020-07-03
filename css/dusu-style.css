@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  outline: 0;
+  line-height: 1;
+  margin: 0;
+}
+
+body {
+  font: 100% Roboto, sans-serif;
+}
+
+.btn {
+  border: 0;
+  padding: 10px 15px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn.btn-lg {
+  padding: 20px 30px;
+}
+.btn.btn-md {
+  padding: 15px 20px;
+}
+.btn.btn-sm {
+  padding: 8px 12px;
+}
+.btn.btn-xs {
+  padding: 4px 8px;
+}
+.btn.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn.btn-primary {
+  background-color: #92278F;
+  color: #ffffff;
+}
+.btn.btn-secondary {
+  background-color: #F9C943;
+}
+.btn.btn-red {
+  background-color: #c61443;
+  color: #ffffff;
+}
+.btn.btn-teal {
+  background-color: #00A79D;
+  color: #ffffff;
+}
+
+input, textarea, select {
+  outline: 0;
+  border: 0;
+  box-shadow: 0;
+  border: 1px solid #c1c1c1;
+  position: relative;
+}
+input.has-icon-right, textarea.has-icon-right, select.has-icon-right {
+  padding-right: 40px;
+}
+input.has-icon-left, textarea.has-icon-left, select.has-icon-left {
+  padding-left: 40px;
+}
+input.form-input, textarea.form-input, select.form-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+input.form-input:focus, textarea.form-input:focus, select.form-input:focus {
+  border-color: #92278F;
+}
+
+textarea {
+  min-height: 100px;
+}
+
+.flex-box, [class^=col-], .row {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+.row:before {
+  content: "";
+  clear: both;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+[class^=col-] {
+  flex-flow: column;
+}
+
+.col-1 {
+  width: calc(1/12*100%);
+}
+
+.col-2 {
+  width: calc(2/12*100%);
+}
+
+.col-3 {
+  width: calc(3/12*100%);
+}
+
+.col-4 {
+  width: calc(4/12*100%);
+}
+
+.col-5 {
+  width: calc(5/12*100%);
+}
+
+.col-6 {
+  width: calc(6/12*100%);
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-inner {
+  padding: 15px;
+}
+
+@media screen and (max-width: 499px) {
+  .col-1, .col-2, .col-3, .col-4, .col-6, .col-12 {
+    width: 100%;
+  }
+}
+.card {
+  background: #ffffff;
+  -webkit-box-shadow: -1px 0 3px 1px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: -1px 0 3px 1px rgba(0, 0, 0, 0.09);
+  -o-box-shadow: -1px 0 3px 1px rgba(0, 0, 0, 0.09);
+  box-shadow: -1px 0 3px 1px rgba(0, 0, 0, 0.09);
+  margin: 0 auto;
+  width: 100%;
+}
+
+img.img-responsive {
+  position: relative;
+}
+img.img-responsive.-h {
+  width: 100%;
+  height: auto;
+}
+img.img-responsive.-v {
+  height: 100%;
+  width: auto;
+}
+
+/*# sourceMappingURL=dusu-style.css.map */

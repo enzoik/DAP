@@ -1,0 +1,32 @@
+@use 'variables'
+
+input
+	outline: 0
+	border: 0
+	box-shadow: 0
+	border: 1px solid variables.$border-color	
+	position: relative
+
+	&.has-icon-right
+		padding:
+			right: 40px
+
+	&.has-icon-left
+		padding:
+			left: 40px
+
+	&.form-input
+		width: 100%	
+		padding: 10px
+		border-radius: 5px
+
+		&:focus
+			border-color: variables.$primary-color
+
+select
+	@extend input
+
+textarea
+	@extend input
+	min-height: 100px
+		
